@@ -1,0 +1,115 @@
+body {
+  height: 600px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #0b3b21;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 23px;
+  color: #ad7410;
+}
+.name {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+h1 {
+  margin: 0;
+  color: #ad7410;
+  font-weight: 500;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.wrapperLogo {
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background-color: #0b3b21;
+  color: #ad7410;
+  border: 2px solid #ad7410;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+button:hover {
+  transition: all 1s ease;
+  background-color: #ad7410;
+}
+
+.tongues {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.first {
+  height: 140px;
+  width: 35px;
+}
+.second {
+  height: 170px;
+  width: 35px;
+}
+.third {
+  height: 200px;
+  width: 35px;
+}
+
+.fourth {
+  height: 230px;
+  width: 35px;
+}
+.fifth {
+  height: 260px;
+  width: 35px;
+}
+.fifth {
+  height: 290px;
+  width: 35px;
+}
+.middle {
+  height: 320px;
+  width: 35px;
+}
+.wrapperLink {
+  margin-top: 70px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  width: 100px;
+  height: 30px;
+  background-color: #0b3b21;
+  color: #ad7410;
+  border: 0.5px solid #ad7410;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #ad7410;
+  text-decoration: none;
+}
+.year {
+  margin-top: 100px;
+  font-size: 15px;
+  color: #ad7410;
+}
+footer {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
