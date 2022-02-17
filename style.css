@@ -42,6 +42,10 @@ button {
   justify-content: center;
   align-items: flex-end;
 }
+.transform {
+  background-color: white;
+}
+
 button:hover {
   transition: all 1s ease;
   background-color: #ad7410;

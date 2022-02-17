@@ -9,7 +9,10 @@
     <link />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:ital,wght@1,100;1,300&family=Nunito:wght@200;300&family=Quicksand&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:ital,wght@1,100;1,300&family=Nunito:wght@200;300&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapperLogo">
@@ -22,25 +25,43 @@
     </div>
     <div>
       <div class="tongues">
-        <button class="first">G</button>
-        <button class="second">A</button>
-        <button class="third">E</button>
-        <button class="fourth">D</button>
-        <button class="fifth">C</button>
-        <button class="middle">G</button>
-        <button class="fifth">D</button>
-        <button class="fourth">G</button>
-        <button class="third">F#</button>
-        <button class="second">H</button>
-        <button class="first">A</button>
+        <button class="first" data-key="65">G</button>
+        <button class="second" data-key="83">A</button>
+        <button class="third" data-key="68">E</button>
+        <button class="fourth" data-key="70">D</button>
+        <button class="fifth" data-key="71">C</button>
+        <button class="middle" data-key="72">G</button>
+        <button class="fifth" data-key="74">D</button>
+        <button class="fourth" data-key="75">G</button>
+        <button class="third" data-key="76">F#</button>
+        <button class="second" data-key="186">H</button>
+        <button class="first" data-key="222">A</button>
       </div>
     </div>
+    <audio src="/sounds/1.mp3" data-key="65"></audio>
+    <audio src="/sounds/2.mp3" data-key="83"></audio>
+    <audio src="/sounds/3.mp3" data-key="68"></audio>
+    <audio src="/sounds/4.mp3" data-key="70"></audio>
+    <audio src="/sounds/5.mp3" data-key="71"></audio>
+    <audio src="/sounds/6.mp3" data-key="72"></audio>
+    <audio src="/sounds/7.mp3" data-key="74"></audio>
+    <audio src="/sounds/8.mp3" data-key="75"></audio>
+    <audio src="/sounds/9.mp3" data-key="76"></audio>
+    <audio src="/sounds/10.mp3" data-key="186"></audio>
+    <audio src="/sounds/11.mp3" data-key="222"></audio>
+    <script src="/script.js"></script>
   </body>
   <footer>
     <div class="wrapperLink">
-      <button class="link"><a href="https://www.kalimbatabs.net/">TABS</a></button>
-      <button class="link"><a href="https://www.youtube.com/c/KalimbaTabsAndTutorials">YOUTUBE</a></button>
-      <button class="link"><a href="https://web.telegram.org/z/">TELEGRAM</a></button>
+      <button class="link">
+        <a href="https://www.kalimbatabs.net/">TABS</a>
+      </button>
+      <button class="link">
+        <a href="https://www.youtube.com/c/KalimbaTabsAndTutorials">YOUTUBE</a>
+      </button>
+      <button class="link">
+        <a href="https://web.telegram.org/z/">TELEGRAM</a>
+      </button>
     </div>
     <div class="year">Copyright © 2022 by Zlata Victorovna</div>
   </footer>
