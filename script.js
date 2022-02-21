@@ -5,7 +5,17 @@ const playSound = (e) => {
   button.classList.add("transform");
   audio.currentTime = 0;
   audio.play();
-  console.log("проверка");
+  
 };
 
 window.addEventListener("keydown", playSound);
+
+const removeTransition = (e) => {
+  if (e.propertyName !== "transform") return;
+  e.target.classList.remove("transform");
+  console.log(e.propertyName);
+
+};
+
+const keys = document.querySelectorAll("buttons");
+keys.forEach((el) => el.addEventListener("transitionend", removeTransition));
