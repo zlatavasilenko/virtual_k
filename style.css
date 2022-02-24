@@ -43,8 +43,9 @@ button {
   align-items: flex-end;
 }
 .transform {
-  background-color: white;
-  
+  background-color: #ad7410;
+  color: #0b3b21;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 button:hover {
